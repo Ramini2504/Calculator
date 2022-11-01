@@ -1,0 +1,36 @@
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto; 
+    border: 1px solid white;
+    border-radius: 10px;  
+}
+#display {
+    color: white;
+    text-align: right;
+    height : 100px;
+    line-height: 50px;
+    padding : 19px 8px;
+    font-size: 50px;
+}
+.buttons {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.button {
+    margin: 5px;
+    border-radius: 100px;
+    line-height: 90px;
+    text-align: center;
+    font-size: 40px;
+    cursor: pointer;
+}
+#equal, #division, #multiplication, #addition, #subtraction {
+    background-color: rgb(255, 140, 1);
+}
+#clear, #per, #minus {
+    background-color: rgb(189, 186, 186);
+}
+#sev, #six, #eig, #nin, #fou, #fiv, #the, #two, #one, #dot, #zer, #zero {
+    background-color: rgb(84, 83, 83);
+}
